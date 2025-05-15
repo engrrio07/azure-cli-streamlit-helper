@@ -1,0 +1,2 @@
+# Disable Streamlit telemetry
+gatherUsageStats = false
