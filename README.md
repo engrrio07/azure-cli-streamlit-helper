@@ -7,6 +7,11 @@ A simple Streamlit app to streamline common Azure CLI commands, such as finding 
 - **Find Service Principal ID by Name**
 - **Find Service Principal Name by ID**
 - **Show Current Azure Account Info**
+- **List Subscriptions**
+- **Show Service Principal Details**
+- **List ACE Groups and Members in Entra**
+- **List API Managed Identities**
+- **Check DSMC Rules**
 - **No extra authentication required** (uses the credentials from your current `az login` session)
 - **Streamlit telemetry disabled** for privacy
 
