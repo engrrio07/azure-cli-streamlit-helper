@@ -20,7 +20,7 @@ def run_az_command(cmd, jsonLoad=True):
             output = json.loads(result.stdout) if jsonLoad else result.stdout
 
             # Revert to original subscription after execution
-            subprocess.run(f'az account set --subscription "{original_subscription}"', shell=True)
+            # subprocess.run(f'az account set --subscription "{original_subscription}"', shell=True)
 
             return output
         else:
